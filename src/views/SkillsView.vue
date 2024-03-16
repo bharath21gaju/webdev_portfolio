@@ -7,14 +7,14 @@
       </div>
       <div class="space-y-6 px-5">
         <div>
-          <h3 class="font-semibold text-lg mb-2">Programming Languages</h3>
+          <h3 class="font-semibold text-xl mb-2">Programming Languages</h3>
           <p class="text-left mb-2 skill-list">
             <span>Python</span><span>C</span><span>C++</span><span>Java</span>
             <span>Matlab</span><span>HTML</span><span>JavaScript</span><span>CSS</span>
           </p>
         </div>
         <div>
-          <h3 class="font-semibold text-lg mb-2">Tools & Libraries</h3>
+          <h3 class="font-semibold text-xl mb-2">Tools & Libraries</h3>
           <p class="text-left mb-2 skill-list">
             <span>TensorFlow</span><span>PyTorch</span><span>NumPy</span><span>Pandas</span>
             <span>Scikit-learn</span><span>OpenCV</span><span>Keras</span><span>Flask</span>
@@ -22,7 +22,7 @@
           </p>
         </div>
         <div>
-          <h3 class="font-semibold text-lg mb-2">Platforms</h3>
+          <h3 class="font-semibold text-xl mb-2">Platforms</h3>
           <p class="text-left mb-2 skill-list">
             <span>Jupyter Notebook</span><span>Google Colab</span><span>Jenkins</span>
             <span>Jira</span><span>VS Code</span><span>SVN</span><span>GIT Version</span>
@@ -32,7 +32,7 @@
           </p>
         </div>
         <div>
-          <h3 class="font-semibold text-lg mb-2">Other Technologies</h3>
+          <h3 class="font-semibold text-xl mb-2">Other Technologies</h3>
           <p class="text-left skill-list">
             <span>Microsoft Office</span><span>Word</span><span>Excel</span><span>PowerPoint</span>
           </p>

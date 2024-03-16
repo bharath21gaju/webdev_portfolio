@@ -7,13 +7,13 @@
       <div class="space-y-6">
         <div v-for="education in educationHistory" :key="education.id" class="bg-white dark:bg-gray-800 shadow-lg rounded-lg p-6">
           <div class="flex justify-between items-start mb-2">
-            <h3 class="font-semibold text-lg text-left">
+            <h3 class="font-semibold text-x1 text-left">
               <a :href="education.link" class="text-blue-500 hover:underline" target="_blank">{{ education.university }}</a>
             </h3>
-            <span class="text-sm text-right text-gray-600">{{ education.period }}</span>
+            <span class="text-md text-right text-gray-600">{{ education.period }}</span>
           </div>
           <div class="text-left mb-2">{{ education.degree }}</div>
-          <div class="text-sm italic text-left">Related Courses: {{ education.courses.join(', ') }}</div>
+          <div class="text-md italic text-left">Related Courses: {{ education.courses.join(', ') }}</div>
         </div>
       </div>
     </section>
