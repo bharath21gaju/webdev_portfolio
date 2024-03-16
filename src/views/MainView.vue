@@ -40,6 +40,8 @@
 						<LandingView :content="portfolio.greeting" :show-transition="showLanding"/>
 
 						<AboutView :content="portfolio.about" :transitions="portfolio.transitions" />
+						
+						<SkillsView :content="portfolio.Skills" :transitions="portfolio.transitions" />
 
 						<ExperienceView :content="portfolio.experiences" :transitions="portfolio.transitions" />
 
@@ -70,6 +72,8 @@ import ExperienceView from './ExperienceView.vue'
 import WorkView from './WorkView.vue'
 import ContactView from './ContactView.vue'
 import SplashView from './SplashView.vue'
+import SkillsView from './SkillsView.vue' // Import the SkillsView component
+
 
 import portfolio from '../portfolio'
 
