@@ -44,12 +44,14 @@ const about = {
         "Responsible, organized, problem solver, and independent thinker. Work well in a team and a quick learner. Programming for 2+ years and have 4 years of experience in advanced mathematics such as calculus, statistics, and discrete mathematics. "
     ], // Separated items are paragraphs
     techStack: [
+        "Tensor flow",
+        "MySQL",
+        "Machine Learning",
+
         "Java",
         "JS",
-        "Machine Learning",
-        "MySQL",
-        "Tensorflow",
         "Python",
+       
     ],
     photo1Link: "images/portfolio2.jpeg",
     photo2Link: "images/portfolio4.jpeg",
