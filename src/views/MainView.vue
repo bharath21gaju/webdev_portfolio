@@ -41,6 +41,8 @@
 
 						<AboutView :content="portfolio.about" :transitions="portfolio.transitions" />
 						
+						<EducationView :content="portfolio.education" :transitions="portfolio.transitions" />
+
 						<SkillsView :content="portfolio.Skills" :transitions="portfolio.transitions" />
 
 						<ExperienceView :content="portfolio.experiences" :transitions="portfolio.transitions" />
@@ -73,6 +75,7 @@ import WorkView from './WorkView.vue'
 import ContactView from './ContactView.vue'
 import SplashView from './SplashView.vue'
 import SkillsView from './SkillsView.vue' // Import the SkillsView component
+import EducationView from './EducationView.vue'; // Import the EducationView component
 
 
 import portfolio from '../portfolio'
