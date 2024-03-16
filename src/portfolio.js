@@ -21,202 +21,222 @@ const splashScreen = true // recommended: for best behavior after refresh
 // --- 👋 Greeting Section ---
 const greeting = {
     intro: "Hello 👋, my name is",
-    name: "Maxim Shelepov",
-    message: "I'm a computer science student and an aspiring software engineer. Currently working as a web developer at my university building tools to aid students, educators, and staff.",
-    basedLocation: "Raleigh, NC",
-    resumeLink: "https://docs.google.com/document/d/1Sa_sK3RMusoezzgzxu8LkV16i2Jra2qd/edit?usp=sharing&ouid=113657039181859132688&rtpof=true&sd=true", // recommended: google drive file share link (change to "anyone on the internet can view")
+    name: " Bharath Gajula",
+    message: "I'm a computer science student and an aspiring software engineer. Currently working as a Data analyst at my university analyzing data to aid students, educators, and staff.",
+    basedLocation: "Boston, MA",
+    resumeLink: "https://drive.google.com/file/d/18hw1v9kJbLa9jWNHmboOdybuH4TEyqhp/view?usp=sharing", 
     logo: {
-        link: "images/initials.png", // use relative path from  parent directory -> ex: images/image.ext
+        link: "images/Initials.jpg", // use relative path from  parent directory -> ex: images/image.ext
         custom: true // takes precedence over image logo and allows for custom HTML logo (./components/Navbar.vue)
     },
-    portraitLink: 'images/portrait.jpg'
+    portraitLink: 'images/Potrait.jpeg'
 }
 
 const socialMediaLinks = {
-    github: "https://github.com/feifyKike",
-    linkedin: "https://www.linkedin.com/in/maxim-shelepov1",
-    medium: "https://medium.com/@mimaishel",
-    stackoverflow: "",
-    xtwitter: "https://twitter.com/mimaishel"
-} // to add any additional social media links check out the README.md or src/icons.js file
+    github: "https://github.com/bharath21gaju",
+    linkedin: "https://www.linkedin.com/in/bharathgajula",
+    stackoverflow: ""} // to add any additional social media links check out the README.md or src/icons.js file
 
 // --- 😎 About Section ---
 const about = {
     autobiography: [
-        "My name is Maxim Shelepov and I'm a computer science student at North Carolina State University. I have a passion for coding in languages such as Python, Java, PHP, & Swift. Work in web development and have experience with Django and Laravel frameworks.",
-        "Responsible, organized, problem solver, and independent thinker. Work well in a team and a quick learner. Programming for 3+ years and have 4 years of experience in advanced mathematics such as calculus, statistics, and discrete mathematics. Currently working as a web development intern for my university."
+        "My name is Bharath Gajula and I'm a Data science student at Northeasterb University. I have a passion for coding in languages such as Python, Java. Work in Full Stack development and have experience with Pytorch and Tensorflow frameworks.",
+        "Responsible, organized, problem solver, and independent thinker. Work well in a team and a quick learner. Programming for 2+ years and have 4 years of experience in advanced mathematics such as calculus, statistics, and discrete mathematics. "
     ], // Separated items are paragraphs
     techStack: [
-        "PHP",
-        "Python",
-        "JavaScript",
-        "Vue.js",
+        "Java",
+        "JS",
+        "Machine Learning",
         "MySQL",
-        "Swift"
+        "Tensorflow",
+        "Python",
     ],
-    photo1Link: "images/portrait1.jpeg",
-    photo2Link: "images/portrait2.jpeg",
-    photo3Link: "images/portrait3.jpeg"
+    photo1Link: "images/portfolio2.jpeg",
+    photo2Link: "images/portfolio4.jpeg",
+    photo3Link: "images/Portofolio3.jpeg"
 }
+
 
 // --- 🛡️ Experience Section ---
 const experiences = [
     {
-        position: "Web Dev Intern",
+        position: "Full Stack Developer",
         company: {
-            name: "WolfTech",
-            link: "https://tools.wolftech.ncsu.edu/support/index.php/WolfTech_Information_Technology"
+            name: "Oracle",
+            link: "https://www.oracle.com/",
         },
-        duration: "Aug 2022 - Present",
+        duration: "Aug 2022 - Aug 2023",
+
         bulletPoints: [
-            "Resolved issues and developed new tools within several university web applications (email automation, research discovery, educational resources, scheduling tools, and text-generative AI news sharing).",
-            "Achieved 100+ github code contributions as an intern on the team.",
-            "Currently rebuilding and modernizing the university digital sign manager and system."
+            "Collaborated with bank clients to enhance digital front-end experiences using OJET, resulting in a 15% increase in user engagement and a 10% improvement in overall customer satisfaction.",
+            " Implemented back-end java and oracle sql enhancements for banking systems, optimizing transaction processing speed by 20%, thereby improving the efficiency of internal operations.",
+            "Provided on-site support to bank clients, offering immediate assistance and resolving errors efficiently. Maintained Jira ticket system to track and prioritize issue resolution, resulting in a 20% reduction in error resolution time.",
+            "Developed Java classes from scratch, including ORMs, DTOs, adapters, and assemblers. Utilized Oracle SQL to design and execute queries, achieving a 25% improvement in CRUD operations efficiency and data storage."
+           
         ],
         hashtags: [
-            "Laravel",
-            "PHP",
+            "Java",
+            "Oracle Weblogic",
+            "Oracle Database 11g",
             "MySQL",
-            "JS",
-            "Vue.js",
-            "HTML",
-            "Tailwind"
+            "SVN",
+            "Knockoutjs",
+            "JIRA",
+            "Jenkins",
+            "HTML"
         ]
     },
     {
-        position: "Math Tutor",
+        position: "AI Intern",
         company: {
-            name: "Mathnasium",
-            link: "https://www.mathnasium.com"
+            name: "Upskillz- IIT Kharagpur",
+            link: ""
         },
-        duration: "Jan 2022 - Aug 2022",
+        duration: "May 2022 - Aug 2022",
         bulletPoints: [
-            "Taught math to students elementary through high school covering topics from basic algebra to college-level calculus.",
-            "Directed the trajectory of the student's learning plan and math topic evaluation to facilitate success in their school math class.",
-            "Requested by many students and parents for routine weekly tutoring sessions in a system with a standard random weekly rotation."
+            "Specialized in YOLO and LSTM models, boosting pixel classification accuracy by 10% through advanced Python OpenCV techniques, while reducing false positives by 15%.",
+            "Led a successful social media campaign, increasing data collection participants by 30% and improving dataset quality for enhanced model training."
         ],
         hashtags: [
-            "Calc 1-2",
-            "Algebra 1-3",
-            "Discrete Math",
-            "Statistics"
+            "TensorFlow,",
+            "Python",
+            "Vs Code",
+            "Git Version",
+            "OpenCV",
+            "Pandas"
         ]
-    }
+    },
+    {
+        position: "Research Assistant,",
+        company: {
+            name: "Deep Learning Research lab-BMSCE",
+            link: "https://bmsce.ac.in/home/Machine-Learning-AI-and-ML-About"
+        },
+        duration: "Jan 2022 - May 2022",
+        bulletPoints: [
+            "Enhanced dataset accuracy by 10% through advanced data processing techniques and feature extraction algorithms, specifically designed for dark background and low-quality field images such as l-means clustering and sobel-edge.",
+            "Assisted in data collection and cleaning, ensuring high-quality datasets for data-driven research and analysis.",
+            "Implemented CNN and Transfer Learning models, leading to a 15% increase in model performance and effective resolution of data-related challenges.",
+            "Trained machine learning models, actively engaging in the experimentation process to optimize training times by 20%.",
+            "Created pipelines for CNN and focused on parameter optimization to fine-tune model performance"
+        ],
+        hashtags: [
+            "TensorFlow,",
+            "Python",
+            "Vs Code",
+            "Git Version",
+            "OpenCV",
+            "Pandas"
+        ]
+    },
+    {
+        position: "Machine Learning Intern",
+        company: {
+            name: "Nokia Networks",
+            link: "https://www.nokia.com/about-us/careers/student-and-graduate-opportunities/"
+        },
+        duration: "Jan 2021 - Aug 2021",
+        bulletPoints: [
+            "Established scalable pipeline automated processes to develop, validate, and implement machine learning models such as Xgboost, logistic regression, and Decision trees, resulting in improved efficiency and classification accuracy.",
+             "Applied preprocessing techniques to increase tenure prediction accuracy to 96% which lead to substantial cost savings and differentiation in customer offerings by providing incentives to increase brand loyalty."
+        ],
+        hashtags: [
+            "TensorFlow,",
+            "Python",
+            "Panda",
+            "Supervised Machine Learning",
+            "Data Visualization",
+            "Git Version",
+            "Azure machine learning studio",
+            "Jupyter Notebook,",
+            "Keras,"
+        ]
+    }  
 ]
 
 // --- 💻 Work Section ---
 const works = [
+    //{
+    //     projectName: "TrackYourSubs IOS App",
+    //     yearCompleted: "2022",
+    //     description: "An IOS app to track you subscriptions and expenses, all the while presenting in a clean and professional look with a load of features. Some of the more evident features are: Budgeting (monthly / yearly option available), Current monthly & yearly total expense at a glance, Custom suggestions to meet budget, Organize (Categorization & Importance) and filter through subscriptions, Reminders via scheduled notifications, Stats page: pie chart visual, bar chart visual, and streak indicator.",
+    //     techStack: "Swift, SwiftUI",
+    //     links: [
+    //         {
+    //             label: "",
+    //             type: "git",
+    //             url: "https://github.com/bharath21gaju/"
+    //         },
+    //         {
+    //             label: "",
+    //             type: "external",
+    //             url: ""
+    //         }
+    //     ],
+    //     imageLink: "images/tracksubs_pic.png",
+    //     alignLeft: false
+    // },
     {
-        projectName: "TrackYourSubs IOS App",
+        projectName: "Taxi Database Management System",
+        yearCompleted: "2023",
+        description: "Designed and implemented a SQL-Database Management system to enhance cab booking and ride management. Implemented triggers and stored procedures, reducing update times by 15% and optimizing overall performance. Developed a Python system for ride booking, achieving a 30% improvement in booking efficiency through optimized database CRUD operations.",
+        techStack: "Oracle SQL, Python, HTML, CSS, JS, Flask",
+        links: [
+            {
+                label: "",
+                type: "external",
+                url: "https://github.com/bharath21gaju/"
+            }
+        ],
+        imageLink: "images/taxi_booking.jpeg",
+        alignLeft: true
+    },
+    {
+        projectName: "Real Time ASL Translation",
         yearCompleted: "2022",
-        description: "An IOS app to track you subscriptions and expenses, all the while presenting in a clean and professional look with a load of features. Some of the more evident features are: Budgeting (monthly / yearly option available), Current monthly & yearly total expense at a glance, Custom suggestions to meet budget, Organize (Categorization & Importance) and filter through subscriptions, Reminders via scheduled notifications, Stats page: pie chart visual, bar chart visual, and streak indicator.",
-        techStack: "Swift, SwiftUI",
+        description: "Conducted thorough analysis on preprocessing and feature extraction for diverse image backgrounds. Trained datasets on VGG 16, ResNet, YOLO, and CNN for real-time gesture recognition. Reduced model parameters and training time by 20%, optimizing operational real time classification by 10%.",
+        techStack: " Python, GIT",
         links: [
             {
                 label: "",
                 type: "git",
-                url: "https://github.com/feifyKike/TrackYourSubsDemo/"
-            },
-            {
-                label: "",
-                type: "external",
-                url: "https://youtu.be/KsTx-F70OOk"
+                url: "https://github.com/bharath21gaju/"
             }
+            
         ],
-        imageLink: "images/tracksubs_pic.png",
+        imageLink: "images/asl_image.jpg",
         alignLeft: false
     },
     {
-        projectName: "Dynamic Portfolio Website",
+        projectName: "COVID and Lung Diseases Detection",
         yearCompleted: "2021",
-        description: "Developed a personal portfolio website with Python backend using the Django web development framework. Incorporated HTML, CSS, and JavaScript to construct the frontend of the website.",
-        techStack: "Django, Python, HTML, CSS, JS",
+        description: "Engineered an end-to-end CNN model for COVID-19 detection, achieving an classification accuracy of 92.5%. Designed a six-layer CNN architecture with additional CNN layers, which had performance boost with a 15% increase in accuracy for COVID-19 cases. Leveraged data augmentation techniques, resulting in a 20% improvement in CNN model efficiency, generating additional data for more accurate image classification.",
+        techStack: "Python, Pandas, OpenCV, Jupyter Notebook",
         links: [
             {
                 label: "",
-                type: "external",
-                url: "https://maximshelepov.com"
+                type: "git",
+                url: "https://github.com/bharath21gaju/"
             }
         ],
-        imageLink: "images/portfolio_pic.png",
+        imageLink: "images/COVID.jpg",
         alignLeft: true
-    },
-    {
-        projectName: "Sudoku Game & Solver",
-        yearCompleted: "2021",
-        description: "Built a Sudoku game UI incorporating the Java Swing library. Randomly generates a Sudoku puzzle and solves itself using the backtracking algorithm written in Java..",
-        techStack: "Java",
-        links: [
-            {
-                label: "",
-                type: "git",
-                url: "https://github.com/feifyKike/sudokusolver"
-            },
-            {
-                label: "",
-                type: "external",
-                url: "https://youtu.be/lXOjOrjf5hU"
-            }
-        ],
-        imageLink: "images/sudoku_pic.png",
-        alignLeft: false
-    },
-    {
-        projectName: "Trivia Quiz",
-        yearCompleted: "2020",
-        description: "Interested in taking a fun and interactive pop quiz? Using the HTML, CSS3, JavaScript, and jQuery I created a quiz that can be taken on numerous topics of your choice and gives instant feedback. The entire project is built mostly on JavaScript and all the functionality and events are controlled through functions such as ReadDisplay and Validate. The HTML portion of the online quiz only serves as the skeleton and template for elements that will be created via JS.",
-        techStack: "JS, HTML, CSS",
-        links: [
-            {
-                label: "",
-                type: "git",
-                url: "https://github.com/feifyKike/JS-API-Quiz"
-            },
-            {
-                label: "",
-                type: "external",
-                url: "https://codepen.io/Max_the_coder/pen/yLXZOYL" //https://codepen.io/Max_the_coder/pen/yLXZOYL
-            }
-        ],
-        imageLink: "images/trivia_pic.png",
-        alignLeft: true
-    },
-    {
-        projectName: "Coronavirus Report",
-        yearCompleted: "2020",
-        description: "Created a program that displays up-to-date COVID-19 data and shows results in a graphical / visual representation. Coded with the Python programming language and libraries such as Matplotlib, Requests, and CSV.",
-        techStack: "Python",
-        links: [
-            {
-                label: "",
-                type: "git",
-                url: "https://youtu.be/gw5kb1QKVp0"
-            },
-            {
-                label: "",
-                type: "external",
-                url: "https://github.com/feifyKike/Covid-Cases-Visual"
-            }
-        ],
-        imageLink: "images/covid_pic.png",
-        alignLeft: false
     }
 ]
 
-const archiveLink = "https://github.com/feifyKike?tab=repositories"
+const archiveLink = "https://github.com/bharath21gaju/"
 
 // --- 📭 Contact Section ---
-// 2 Options available - Choose 1
 const contact = {
     externalLink: {
         shortTitle: "Get in Touch",
         note: [
-            "Currently seeking web and software development positions/internships in the RTP area for summer 2024.",
+            "Currently seeking full stack,Data Scientist,Artifical Intelligence software development positions/internships in the RTP area for summer 2024.",
             "Also looking to build a team for projects & startup ideas or just make professional connections."
         ], // paragraph breaks will be entered after each item,
         link: {
-            email: "", // email takes precedance
-            other: "https://forms.gle/W3MswTKsPWMxEbn58"
+            email: "sai21gajula@gmail.com", // email takes precedance
+            other: "https://forms.gle/AnwMaMKsKT8bKzRv8"
         },
         responseTimeMessage: "...and I'll resopnd within the next 24hrs"
     },
