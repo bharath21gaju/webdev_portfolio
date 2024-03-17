@@ -33,7 +33,7 @@ const greeting = {
 }
 
 const socialMediaLinks = {
-    github: "https://github.com/bharath21gaju",
+    github: "https://github.com/sai21gajula",
     linkedin: "https://www.linkedin.com/in/bharathgajula",
     stackoverflow: ""} // to add any additional social media links check out the README.md or src/icons.js file
 
@@ -89,6 +89,7 @@ const experiences = [
     },
     {
         position: "AI Intern",
+        positionLink: "https://github.com/sai21gajula/Hyperspectral_Imaging_Classification",
         company: {
             name: "Upskillz- IIT Kharagpur",
             link: ""
@@ -109,6 +110,7 @@ const experiences = [
     },
     {
         position: "Research Assistant,",
+        positionLink: "https://drive.google.com/file/d/1oo8eKZ5CoDLEQzojWC4WmqiC3Zvt_PmC/view?usp=sharing",
         company: {
             name: "Deep Learning Research lab-BMSCE",
             link: "https://bmsce.ac.in/home/Machine-Learning-AI-and-ML-About"
@@ -132,6 +134,7 @@ const experiences = [
     },
     {
         position: "Machine Learning Intern",
+        positionLink: "https://github.com/sai21gajula/Nokia_Networks_ChurnPrediction",
         company: {
             name: "Nokia Networks",
             link: "https://www.nokia.com/about-us/careers/student-and-graduate-opportunities/"
@@ -186,7 +189,7 @@ const works = [
             {
                 label: "",
                 type: "external",
-                url: "https://github.com/bharath21gaju/"
+                url: "https://github.com/sai21gajula/Taxi_Booking_DatabaseManagement"
             }
         ],
         imageLink: "images/taxi_booking.jpeg",
@@ -201,7 +204,7 @@ const works = [
             {
                 label: "",
                 type: "git",
-                url: "https://github.com/bharath21gaju/"
+                url: "https://drive.google.com/file/d/1WGbgwTovJq0tDvlBIb9VqdFbmKmHsXBd/view?usp=sharing"
             }
             
         ],
@@ -217,7 +220,7 @@ const works = [
             {
                 label: "",
                 type: "git",
-                url: "https://github.com/bharath21gaju/"
+                url: "https://github.com/sai21gajula/COVID-and-Lung-Diseases-Detection_DeepLearning"
             }
         ],
         imageLink: "images/COVID.jpg",
@@ -225,7 +228,7 @@ const works = [
     }
 ]
 
-const archiveLink = "https://github.com/bharath21gaju/"
+const archiveLink = "https://github.com/sai21gajula/"
 
 // --- 📭 Contact Section ---
 const contact = {
