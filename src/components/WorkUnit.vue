@@ -23,6 +23,10 @@
                         <ArrowTopRightOnSquareIcon class="h-7 w-7"/>
                         <span>{{ link.label }}</span>
                     </span>
+                    <span v-else-if="link.type == 'admin'" class="flex items-center space-x-2">
+                        <font-awesome-icon icon="fa-solid fa-gear" class="h-7 w-7"></font-awesome-icon>
+                        <span>{{ link.label }}</span>
+                    </span>
                     <span v-else class="flex items-center space-x-2">
                         <LinkIcon class="h-6 w-6"/>
                         <span>{{ link.label }}</span>
