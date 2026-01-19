@@ -14,11 +14,14 @@ import {
     faXTwitter
 } from '@fortawesome/free-brands-svg-icons'
 
+import { faGear } from '@fortawesome/free-solid-svg-icons'
+
 /* add icons to the library */
 library.add(
     faGithub,
     faLinkedin,
     faMedium,
     faStackOverflow,
-    faXTwitter
+    faXTwitter,
+    faGear
 )
